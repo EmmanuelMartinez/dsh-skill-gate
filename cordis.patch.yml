@@ -1,0 +1,4 @@
+# One host-only row: the gate intercepts tool calls, it renders no surface.
+- insert:
+    - id: skill-gate
+      name: '@ixyo/dsh-skill-gate'

@@ -1,0 +1,12 @@
+{
+  "name": "@ixyo/dsh-skill-gate",
+  "version": "0.1.0",
+  "description": "Skill-first write gate for DeepSeek Harness: a write to a gated path is denied until every declared skill was read in the session.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": { ".": { "default": "./lib/index.js" }, "./package.json": "./package.json" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "files": ["lib/index.js", "cordis.patch.yml", "README.md", "LICENSE"],
+  "peerDependencies": { "@deepseek-ai/cordis": "*" }
+}
